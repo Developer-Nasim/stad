@@ -1,0 +1,181 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .login-inner-wrap h1 {
+        font-size: 52px; 
+        line-height: 60.66px;
+        margin-bottom: 90px;
+    }
+    .login-inner-wrap h1 span {
+        font-size: 52px; 
+        line-height: 60px;
+    }
+ 
+    label { 
+        margin-bottom: 20px;
+    }
+    .formcontent {
+        margin-bottom: 30px;
+    } 
+    .login-inner-wrap img { 
+        max-width: 360px;
+    }
+    section.login-area a.logo { 
+        max-width: 170px; 
+    }
+    .login-wrap form{
+        width: 37.5%;
+    }
+    .login-inner-wrap{
+        width: 38%;
+    }
+    .login-wrap { 
+        padding-left: 2%;
+    }
+
+
+
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .login-inner-wrap h1 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    .login-inner-wrap h1 span {
+        font-size: 45px;
+    }
+ 
+    label { 
+        margin-bottom: 20px;
+    }
+    .formcontent {
+        margin-bottom: 30px;
+    } 
+    .login-inner-wrap img { 
+        max-width: 360px;
+    }
+    section.login-area a.logo { 
+        max-width: 170px; 
+    }
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .login-wrap {
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin-top: 80px;
+        padding: 0;
+    }
+    
+    .login-wrap::after {
+        display: none;
+    }
+    
+    .login-wrap form, .login-inner-wrap {
+        width: 80%;
+    }
+    
+    .login-inner-wrap h1 {
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 54px;
+        margin-bottom: 25px;
+    }
+    .login-inner-wrap h1 span{
+        font-size: 48px;
+    }
+    
+    .login-inner-wrap img {
+        max-width: 260px;
+    }
+    
+    section.login-area a.logo {
+        max-width: 150px;
+    }
+    
+    label {
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .login-wrap form > a {
+        font-size: 18px;
+        margin-top: 30px;
+    } 
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .login-wrap {
+        flex-direction: column-reverse;
+        gap: 40px;
+        margin-top: 50px;
+        padding: 0;
+    }
+    .login-wrap form {
+        box-shadow: 0px 15px 60px -14px #00000026;
+        padding: 25px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+    .login-wrap::after {
+        display: none;
+    }
+    
+    .login-wrap form, .login-inner-wrap {
+        width: 90%;
+    }
+    
+    .login-inner-wrap h1 {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .login-inner-wrap h1 span{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    .login-inner-wrap img {
+        max-width: 240px;
+    }
+    
+    section.login-area a.logo {
+        max-width: 150px;
+    }
+    
+    label {
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .login-wrap form > a {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .formcontent h3 { 
+        font-size: 32px; 
+        line-height: 40px; 
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
